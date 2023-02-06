@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Islamic Vibes';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'May Allah grant you Jannah';
+    : 'May Allah grant you Jannah!';
 
   return {
     name,
